@@ -1,7 +1,7 @@
 {
   "name": "react-deploy-on-infinityfree",
   "private": true,
-  "homepage": "http://www.reactdeploy.infinityfreeapp.com"
+  "homepage": "http://www.reactdeploy.infinityfreeapp.com",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

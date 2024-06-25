@@ -18,3 +18,7 @@ ftpDeploy.deploy(config)
   .catch(err => console.log('Deploy error:', err));
 // 755 permisison to htdocs folder
 // GitHub Environment Secrets need to be set
+
+console.log('FTP Username:', process.env.FTP_USERNAME);
+console.log('FTP Password:', process.env.FTP_PASSWORD ? '******' : 'Not set');
+console.log('FTP Host:', process.env.FTP_HOST);
